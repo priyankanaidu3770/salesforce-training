@@ -137,6 +137,14 @@ It acts like a virtual lab for Salesforce learning.
 ---
 
 # Screenshots
+ => Sales force Values:
+   <img width="1859" height="562" alt="module 1" src="https://github.com/user-attachments/assets/5a093d5d-764a-4c12-ac8b-9cd641c139a8" />
+   => Playground Management:
+   <img width="1856" height="705" alt="playground" src="https://github.com/user-attachments/assets/8582aec5-898f-41d5-b659-154373e323ce" />
+   => Quick look :
+   <img width="1862" height="594" alt="quick look" src="https://github.com/user-attachments/assets/8cf92c68-7365-4a4a-8699-51e811c2d287" />
+   => Sales Force CRM:
+   <img width="1850" height="708" alt="CRM" src="https://github.com/user-attachments/assets/516607b3-59a2-42e7-8055-020578b67534" />
 
 
 # Key Learnings
