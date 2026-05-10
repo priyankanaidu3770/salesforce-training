@@ -1,0 +1,70 @@
+Hands-On Challenge 1: Custom Field Creation
+Theory
+
+In Salesforce, custom fields are used to store additional business-specific information that is not available in standard fields. Creating custom fields helps organizations customize objects according to their requirements without writing code.
+
+In this challenge, a Currency field named Loan Amount was created in the Contact object to store customer loan eligibility amounts. This improves customer data management and helps brokers easily identify the customer’s budget range.
+
+Objective
+
+Create a custom field in the Contact object.
+
+Steps Performed
+Opened Setup
+Navigated to Object Manager → Contact
+Opened Fields & Relationships
+Created a new Currency field
+Field Details
+Field Label: Loan Amount
+Field Name: Loan_Amount
+Field Type: Currency
+Result
+
+Successfully created a custom field to store customer loan amounts.
+
+
+Hands-On Challenge 2: Define and Publish Platform Event
+Objective
+
+Create a platform event for order shipment notifications.
+
+Steps Performed
+Opened Setup → Platform Events
+Created a new platform event
+Added required custom fields
+Platform Event Details
+Label: Order Event
+Object Name: Order_Event
+Publish Behavior: Publish Immediately
+Fields Created
+Order Number
+Type: Text
+Length: 10
+Has Shipped
+Type: Checkbox
+Result
+
+Successfully created a platform event for order processing communication.
+
+Hands-On Challenge 3: Subscribe to Platform Events
+Objective
+
+Create an Apex trigger to listen for platform events and automate task creation.
+
+Steps Performed
+Opened Developer Console
+Created a new Apex Trigger
+Wrote trigger logic for Order_Event__e
+Trigger Details
+Trigger Name: OrderEventTrigger
+Event Object: Order_Event__e
+Functionality
+Listens for shipment events
+Creates a task when the order is shipped
+Task Details
+Priority: Medium
+Subject: Follow up on shipped order 105
+OwnerId: Event Creator
+Result
+
+Successfully automated follow-up task creation using Apex triggers.
