@@ -1,0 +1,8 @@
+# Day 6 — Triggers & SOQL
+
+## 1. What is SOQL?
+SOQL (Salesforce Object Query Language) is used to retrieve data from Salesforce objects like Account, Contact, Lead, and Opportunity.
+
+Example:
+```sql
+SELECT Name, Phone FROM Account
